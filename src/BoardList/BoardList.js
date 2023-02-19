@@ -59,6 +59,8 @@ function BoardList() {
       <TitleList/>
       <WriterList/>
       <DateList/>
+      <DateList/>
+      <DateList/>
     </div>
   );
 }
