@@ -18,9 +18,6 @@ function NumList() {
 
 function TitleList() {
     const listItems = titleList.map((title) =>
-        // if (title.length > 0) {
-        //     title = title.slice(0) + '...';
-        // }
         <li key={title} className="boardLi2">
             {title}
         </li>
@@ -58,8 +55,6 @@ function BoardList() {
       <NumList/>
       <TitleList/>
       <WriterList/>
-      <DateList/>
-      <DateList/>
       <DateList/>
     </div>
   );
