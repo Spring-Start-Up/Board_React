@@ -1,0 +1,12 @@
+.box {
+    border: 1px solid black;
+    width: 15%;
+    height: 50px;
+    display:inline-block;
+}
+
+.mainBox {
+    width: 60%;
+    height: 50px;
+    display: inline-block;
+}

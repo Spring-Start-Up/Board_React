@@ -1,0 +1,32 @@
+.numList {
+    list-style-type: none;
+    /* border: 1px solid black; */
+    float: left;
+    padding-left: 0;
+    margin-top: 20px;
+}
+
+.boardLi {
+    padding-bottom: 20px;
+}
+
+.titleList {
+    list-style-type: none;
+    /* border: 1px solid black; */
+    float: left;
+    padding-left: 0;
+    margin-top: 20px;
+    margin-left: 20%;
+}
+
+.boardLi2 {
+    padding-bottom: 20px;
+}
+
+.boardLi3 {
+    padding-bottom: 20px;
+}
+
+.boardLi4 {
+    padding-bottom: 20.5px;
+}
