@@ -1,32 +1,44 @@
-.numList {
-    list-style-type: none;
-    /* border: 1px solid black; */
-    float: left;
-    padding-left: 0;
-    margin-top: 20px;
+.board__header {
+    display: flex;
+    justify-content: space-between;
+    padding: 12px;
 }
 
-.boardLi {
-    padding-bottom: 20px;
+image {
 }
 
-.titleList {
-    list-style-type: none;
-    /* border: 1px solid black; */
-    float: left;
-    padding-left: 0;
-    margin-top: 20px;
-    margin-left: 20%;
+.board_user {
+
 }
 
-.boardLi2 {
-    padding-bottom: 20px;
+.board__user p {
+    display: inline;
+    padding-left: 12px;
 }
 
-.boardLi3 {
-    padding-bottom: 20px;
+.board__date {
+    font-size: small;
+    color: rgb(100, 100, 100);
 }
 
-.boardLi4 {
-    padding-bottom: 20.5px;
+.board__icons {
+    padding-top: 10px;
+}
+
+.board_title {
+
+}
+
+.board_content {
+
+}
+
+.board {
+    padding: 0px 12px;
+}
+
+hr {
+    background: rgba(0, 0, 0, 0.120);
+    height: 1px;
+    border: 0;
 }

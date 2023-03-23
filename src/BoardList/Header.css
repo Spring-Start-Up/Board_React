@@ -1,12 +1,29 @@
-.box {
-    border: 1px solid black;
-    width: 15%;
-    height: 50px;
-    display:inline-block;
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #D9D9D9;
+    font-weight: 500;
+    padding: 20px;
 }
 
-.mainBox {
-    width: 60%;
-    height: 50px;
-    display: inline-block;
+.header__back {
+    margin-right: 5%;
+}
+
+.header__back h3 {
+    display: inline;
+    padding: 0px 5px;
+}
+
+.header__more {
+    float: right;
+}
+
+.header__more > i:first-child {
+    padding: 0px 20px;
+}
+
+FontAwesomeIcon {
+    width: 70px;
+    height: 20px;
 }

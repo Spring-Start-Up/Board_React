@@ -1,20 +1,17 @@
 import './App.css';
-import Guideline from './BoardList/Guideline.js';
-import React, {useEffect, useState} from 'react';
-import axios from 'axios';
+import BoardList from './BoardList/BoardList.js';
+import Write from './BoardList/Write.js';
+import { BrowserRouter as Routes, Route, Switch } from 'react-router-dom';
 
 function App() {
-   const [hello, setHello] = useState('')
-
-    useEffect(() => {
-        axios.get('/api/hello')
-        .then(response => setHello(response.data))
-        .catch(error => console.log(error))
-    }, []);
-
     return (
         <div>
-            백엔드에서 가져온 데이터입니다 : {hello}
+            <Routes>
+                <Switch>
+                    <Route path='/write' component={Write} />
+                    <Route path='/' component={BoardList} />
+                </Switch>
+            </Routes>
         </div>
     );
 }

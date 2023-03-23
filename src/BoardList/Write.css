@@ -1,0 +1,30 @@
+.write__title {
+    margin: 5% 10%;
+    height: 30px;
+}
+
+.write__content {
+    margin: 10% 10% 2% 10%;
+    height: 300px;
+}
+
+textarea {
+    width: 90%;
+    height: 90%;
+    padding: 5%;
+    font-size: 15px;
+    border: 0;
+    border-radius: 15px;
+    outline: none;
+    background-color: rgb(233, 233, 233);
+}
+
+.submit__button {
+    float: right;
+    width: 70px;
+    height: 40px;
+    margin: 0 10%;
+    border-radius: 15px;
+    border: 0;
+    background-color: #D9D9D9;
+}
